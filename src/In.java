@@ -705,7 +705,7 @@ public final class In {
         System.out.println("readLine() from current directory");
         System.out.println("---------------------------------------------------------------------------");
         try {
-            in = new In("./tinyG.txt");
+            in = new In("tinyDG.txt");
             while (!in.isEmpty()) {
                 String s = in.readLine();
                 System.out.println(s);

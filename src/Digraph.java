@@ -278,7 +278,7 @@ public class Digraph {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        In in = new In("./mediumDG.txt");
+        In in = new In("./tinyDG.txt");
         Digraph G = new Digraph(in);
         StdOut.println(G);
     }
